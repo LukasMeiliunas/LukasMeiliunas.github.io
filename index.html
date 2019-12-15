@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Lukas Meiliunas</title>
+  <!--StyleSheetsasd-->
+  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4-4.1.1/dt-1.10.20/b-1.6.1/datatables.min.css"/>
+  <link href="css/style.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f97a469942.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm fixed-top navbar-light ">
+    <div class="container">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Lukas Meiliunas</a>
+
+        <div class="collapse navbar-collapse" id="navbar1">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#AboutPhone">About</a>
+            </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Skills">Skills</a>
+          </li>
+            <li class="nav-item">
+              <a href="#myModal" data-toggle = "modal" data-target= "#myModal" class="nav-link">Tech Used</a>
+          </li>
+        
+         
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+      <div class="modal-content"> 
+          <div class="modal-header">
+              <h5 class="modal-title">Tecnhologies used in this CA.</h5> 
+          </div>
+          <div class="modal-body">
+              This Portfolio Webiste uses bootstrap Features such as <strong>Navbar, Carousel,Modals, Dropdowns, Accordions , Columns, Rows, Wells, Image Responsivness Classes.</strong> The Dynamic Table which filters through grades is called <strong>DataTables(jQuery).</strong>
+              <br>
+              The timeline example was followed of <strong>CSS timelines </strong> on W3 Schools. <Strong>ScrollSpy is used for creating a smooth scroll effect.</Strong>  
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss = "modal">Close</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+<a id="button"></a>
+
+  <section class="first">
+  <div class="container">
+  <div class="header">
+    <div class="header-text text-center">
+    <h1>Lukas Meiliunas</h1>
+    <p>Software | Web Developer</p>
+    <a href="https://github.com/LukasMeiliunas" class="git"><i class="fab fa-github"></i> </a>       </div>  
+  </div>
+  </section>
+
+  <section style="margin-top: 95px;margin-bottom: 150px;" id="AboutPhone" href="About">
+  <div class="container">
+    <div class="contrastBox" >
+    <div class="row">
+      <div class="col-lg-12">
+        <h1>About me</h1>
+        <div class="row">
+         <div class="col-lg-4 col-md-4 col-12 text-center">
+           <img src="me.PNG" style="max-width:100%; height: 300px; margin-top: 0 auto;">
+         </div>
+         <div class="col-lg-8 col-md-8 col-12">
+           <div class="aboutText">
+             <h5>Bio:</h5>
+          <p>An innovative and professional software development undergraduate with a commitment to develop a strong
+            career in the IT industry. Currently pursuing a Bachelor of Science Honors in Computing (Software Development),
+            developing strong analytical and problem-solving skills. Currently a 4th year student aiming to obtain first class
+            merits in the Technological University Dublin - Tallaght</p>
+            <div class="row">
+            <div class="col-lg-6">
+          <h5>Contact Details:</h5>
+            <p>Name : Lukas Meiliunas</p>
+              <p>Phone: +353 85 2283427</p>
+              <p>Email: lukasmeiliunas123@gmail.com</p>
+          </div>
+          <div class="col-lg-6">
+            
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+             Contact Me
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Contact Me!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <section class="mb-4">
+
+            
+                    
+                      <div class="row">
+                  
+                          <!--Grid column-->
+                          <div class="col-md-9 mb-md-0 mb-5">
+                              <form id="contact-form" name="contact-form">
+                  
+                                  <!--Grid row-->
+                                  <div class="row">
+                  
+                                      <!--Grid column-->
+                                      <div class="col-md-6">
+                                          <div class="md-form mb-0">
+                                              <input type="text" id="name" name="name" class="form-control">
+                                              <label for="name" class="">Your name</label>
+                                          </div>
+                                      </div>
+                                      <!--Grid column-->
+                  
+                                      <!--Grid column-->
+                                      <div class="col-md-6">
+                                          <div class="md-form mb-0">
+                                              <input type="text" id="email" name="email" class="form-control">
+                                              <label for="email" class="">Your email</label>
+                                          </div>
+                                      </div>
+                                      <!--Grid column-->
+                  
+                                  </div>
+                                  <!--Grid row-->
+                  
+                                  <!--Grid row-->
+                                  <div class="row">
+                                      <div class="col-md-12">
+                                          <div class="md-form mb-0">
+                                              <input type="text" id="subject" name="subject" class="form-control">
+                                              <label for="subject" class="">Subject</label>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <!--Grid row-->
+                  
+                                  <!--Grid row-->
+                                  <div class="row">
+                  
+                                      <!--Grid column-->
+                                      <div class="col-md-12">
+                  
+                                          <div class="md-form">
+                                              <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                              <label for="message">Your message</label>
+                                          </div>
+                  
+                                      </div>
+                                  </div>
+                                  <!--Grid row-->
+                  
+                              </form>
+                  
+                              <div class="text-center text-md-left">
+                                  <a class="btn btn-primary" onclick="">Send</a>
+                              </div>
+                              <div class="status"></div>
+                          </div>
+                          <!--Grid column-->
+                  
+                         
+                      
+                  
+                      </div>
+                  
+                  </section>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            </div>
+                  </div>
+          </div>
+        </div>
+      </div>
+        
+        </div>
+      </div>
+      </div> 
+    </div>
+  </section>
+
+  <section style="margin-top: 95px;margin-bottom: 150px;" id="Experience">
+    <div class="container">
+      <div class="contrastBox" class="rounded">
+      <h1>Work Experience</h1>
+      <div class="card" style="width: 100%;"></div>
+      <div class="ExperienceContainer">  
+      <div class="col-lg-12">
+   <div class="timeline-block block-right">
+    <div class="customMarker"></div>
+    <div class="expContent">
+       <h6>Department Of Agriculture, Food and Marine</h6>
+       <p><span>Web Developer Intern 2019 January - 2019 September</span></p>    
+       <p>Worked as a web developer in an agile environment, worked with multiple technologies such as HTML5, CSS, JavaScript & Java.</p>    
+      
+      
+      </div>
+ </div>
+
+ <div class="timeline-block block-left">
+    <div class="customMarker"></div>
+    <div class="expContent">
+       <h3>Eddie Rockets</h3>
+       <p><span>Chef Intern 2017 January - Present</span></p>
+       <p>Working as part of a team to deliver the highest quality food in the fastest of times.</p>   
+ </div>
+
+ </div>
+
+
+</div></div>
+    </div>
+  </section>
+  <section style="margin-top: 95px;margin-bottom: 150px;" id="Projects">
+    <div class="container">
+      <div class="contrastBox" >
+    <h1>Projects / Websites</h1>
+    <div class="card" style="width: 100%;"></div>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="/PDM.PNG" alt="First slide">
+          <div class="text-center" style="margin-top: 10px;">
+          <button class="btn btn-primary">Visit PDM WoodWorking</button>
+        </div>
+        </div>
+     
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/phoenix.PNG" alt="Second slide">
+          <div class="text-center" style="margin-top: 10px;">
+          <button class="btn btn-primary ">Visit Phoenix Card Club</button>
+          </div>
+        </div>
+       
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  </div>
+  </section>
+  
+  <section>
+  
+    <section class="first" id="Education">
+      <div class="container">
+        <div class="contrastBox" class="rounded">
+
+        <h1>Education</h1>
+        
+        <h5 class="text-center">Technological University Dublin </h5>
+        <h5 class="text-center">Bachelor of Science (Hons) Computing.</h5>
+        <div class="card" style="width: 100%;"></div>
+        <div class="row">
+        <div class="col-lg-4 col-md-4 text-center">
+          <H4>GPA Year 1 : Pass</H4>
+        </div>
+        <div class="col-lg-4 col-md-4 text-center">
+          <H4>GPA Year 2 : 2:2</H4>
+        </div>
+        <div class="col-lg-4 col-md-4 text-center">
+          <H4>GPA Year 3 : 2:1</H4>
+        </div>
+      </div>
+        <table id="myTable" class="table table-striped table-bordered" style="width:100%;">
+          <br>
+          <thead>
+              <tr>
+                  <th>Module</th>
+                  <th>Grade</th>
+                  <th>Year</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>Discrete Mathematics</td>
+                  <td>B-</td>
+                  <td>1</td>
+               
+              </tr>
+              <tr>
+                  <td>Software Development 2</td>
+                  <td>C</td>
+                  <td>1</td>
+               
+              </tr>
+           
+              <tr>
+                <td>Statistics</td>
+                <td>B</td>
+                <td>1</td>
+            </tr>
+          
+            <tr>
+              <td>Operating Systems</td>
+              <td>B-</td>
+              <td>1</td>
+          </tr>
+        
+          <tr>
+            <td>Database Fundamentals</td>
+            <td>C</td>
+            <td>1</td>
+        </tr>
+      
+        <tr>
+          <td>Social Media Communications</td>
+          <td>C</td>
+          <td>1</td>
+      </tr>
+    
+      <tr>
+        <td>Object Orientated Design</td>
+        <td>B</td>
+        <td>1</td>
+    </tr>
+  
+    <tr>
+      <td>Computer Architecture</td>
+      <td>C</td>
+      <td>1</td>
+  </tr>
+  <tr>
+    <td>Fundamentals of Web</td>
+    <td>C+</td>
+    <td>1</td>
+</tr>
+<tr>
+  <td>Business Information Systems</td>
+  <td>C+</td>
+  <td>1</td>
+</tr>
+<tr>
+  <td>Software Development 3</td>
+  <td>C+</td>
+  <td>2</td>
+</tr>
+<tr>
+  <td>Software Development 4</td>
+  <td>C+</td>
+  <td>2</td>
+</tr>
+<tr>
+  <td>Project</td>
+  <td>B</td>
+  <td>2</td>
+</tr>
+<tr>
+  <td>Networking 1</td>
+  <td>B</td>
+  <td>2</td>
+</tr>
+<tr>
+  <td>Networking 2</td>
+  <td>B+</td>
+  <td>2</td>
+</tr>
+<tr>
+  <td>Web & Mobile Deisgn</td>
+  <td>B</td>
+  <td>2</td>
+</tr>
+<tr>
+  <td>Discrete Mathematics 2</td>
+  <td>B</td>
+  <td>2</td>
+</tr>
+<tr>
+  <td>Data Structures & Algorithms</td>
+  <td>B+</td>
+  <td>3</td>
+</tr>
+<tr>
+  <td>Advanced Databases</td>
+  <td>B</td>
+  <td>3</td>
+</tr>
+<tr>
+  <td>Data Analytics</td>
+  <td>B-</td>
+  <td>3</td>
+</tr>
+<tr>
+  <td>Operating Systems</td>
+  <td>B</td>
+  <td>3</td>
+</tr>
+ 
+          </tbody>
+          <tfoot>
+              <tr>
+                  <th>Module</th>
+                  <th>Grade</th>
+                  <th>Year</th>
+                
+              </tr>
+          </tfoot>
+      </table>
+      </div>
+    </div>
+    </section>
+
+    <section  id="Interests123" id="Skils">
+      <div class="container">
+        <div class="contrastBox" class="rounded">
+
+        <h1>IT Skills / Hobbies</h1>
+        
+        
+        <div class="card" style="width: 100%;"></div>
+        <div class="text-center" style="margin-top:10px;">
+        <p>
+          <a class="btn btn-primary" data-toggle="collapse" href="#ITSKILLS" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">IT Skills</a>
+          <a class="btn btn-primary text-ri" data-toggle="collapse" href="#INTERESTS" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Hobbies</a>
+        </p>
+      </div>
+        <div class="row">
+          <div class="col">
+            <div class="collapse multi-collapse" id="ITSKILLS">
+              <div class="card card-body socials">
+                
+                <ul>
+                  <i class="fab fa-java"></i>
+                  <i class="fab fa-html5"></i>
+                  <i class="fab fa-css3-alt"></i>              </ul>
+         
+              </div>
+            </div>
+          </div>
+          <div class="col ">
+            <div class="collapse multi-collapse" id="INTERESTS">
+              <div class="card card-body socials">
+                <ul>
+                  <i class="fas fa-futbol"></i>
+                  <i class="fas fa-running"></i>
+                  <i class="fas fa-dumbbell"></i>                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <footer id="sticky-footer" class="py-10 text-white">
+      <div class="container text-center">
+        <small>Copyright &copy; Lukas Meiliunas</small>
+      </div>
+    </footer>
+ 
+
+
+
+ 
+
+ 
+<!-- All Scripts-->
+  <script src="assets/jquery/jquery.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/v/bs4-4.1.1/dt-1.10.20/b-1.6.1/datatables.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<!--Back to Top Button-->
+<script>
+var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+</script>
+<!--Initialise DataTables -->
+<script>
+  $(document).ready( function () {
+    $('#myTable').DataTable();
+} );
+</script>
+<script>
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar-expand-sm");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+</script>
+<!--Initialise Smooth Scroll.-->
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+
+</body>
+
+</html>
