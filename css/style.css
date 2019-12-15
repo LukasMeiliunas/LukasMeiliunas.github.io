@@ -39,6 +39,7 @@ z-index: 100;
 
     .navbar-fixed-top{
       background-color: #8459f9;
+      border-bottom: 1px solid #8459f9;
     }
 .header-text {
  margin-top: 10em;
@@ -217,6 +218,10 @@ h1 span {
 
  #Interests123{
 margin-top: 70em;
+  }
+
+  .navbar-brand{
+    display:none;
   }
 
   .section {
